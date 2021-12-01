@@ -1,0 +1,39 @@
+.background {
+  display: -ms-grid;
+  display: grid;
+  width: 500px;
+  height: auto;
+  background-color: lightgray;
+  margin: 0 auto;
+  border-radius: 15px;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.calculator {
+  background-color: black;
+  color: white;
+  grid-column: span 4;
+  text-align: end;
+}
+
+.calculator-button_blue {
+  background-color: lightblue;
+  color: white;
+  grid-row: span 4;
+  text-align: center;
+}
+
+.calculator-button_red {
+  background-color: red;
+  text-align: center;
+}
+
+.calculator-button {
+  background-color: white;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
